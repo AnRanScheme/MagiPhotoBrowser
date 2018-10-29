@@ -67,7 +67,7 @@ pod 'MagiPhotoBrowser'
 ``` ruby
 git clone https://github.com/AnRanScheme/MagiPhotoBrowser.git
 open MagiPhotoBrowser
-
+```
 ## Author
 
 AnRanScheme, 541437674@qq.com
