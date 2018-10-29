@@ -6,6 +6,15 @@ osx_image: xcode10
 language: objective-c
 cache: cocoapods
 podfile: Example/Podfile
+
+env:
+global:
+- LANG=en_US.UTF-8
+- LC_ALL=en_US.UTF-8
+- XCODE_WORKSPACE=Example/MagiPhotoBrowser.xcworkspace
+matrix:
+- SCHEME="MagiPhotoBrowser"
+
 before_install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 - gem install cocoapods --pre --no-rdoc --no-ri --no-document --quiet
