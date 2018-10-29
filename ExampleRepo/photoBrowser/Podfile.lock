@@ -1,0 +1,53 @@
+PODS:
+  - Kingfisher (4.10.0)
+  - KingfisherWebP (0.4.2):
+    - Kingfisher (~> 4.0)
+    - libwebp (>= 0.5.0)
+  - libwebp (1.0.0):
+    - libwebp/core (= 1.0.0)
+    - libwebp/dec (= 1.0.0)
+    - libwebp/demux (= 1.0.0)
+    - libwebp/dsp (= 1.0.0)
+    - libwebp/enc (= 1.0.0)
+    - libwebp/mux (= 1.0.0)
+    - libwebp/utils (= 1.0.0)
+    - libwebp/webp (= 1.0.0)
+  - libwebp/core (1.0.0):
+    - libwebp/webp
+  - libwebp/dec (1.0.0):
+    - libwebp/core
+  - libwebp/demux (1.0.0):
+    - libwebp/core
+  - libwebp/dsp (1.0.0):
+    - libwebp/core
+  - libwebp/enc (1.0.0):
+    - libwebp/core
+  - libwebp/mux (1.0.0):
+    - libwebp/core
+  - libwebp/utils (1.0.0):
+    - libwebp/core
+  - libwebp/webp (1.0.0)
+  - MagiPhotoBrowser (0.1.5):
+    - Kingfisher (~> 4.10.0)
+    - KingfisherWebP (~> 0.4.2)
+
+DEPENDENCIES:
+  - Kingfisher (~> 4.10.0)
+  - MagiPhotoBrowser
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+    - KingfisherWebP
+    - libwebp
+    - MagiPhotoBrowser
+
+SPEC CHECKSUMS:
+  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  KingfisherWebP: 53632f3da248ccabd4999d775903d6ae0aaa7768
+  libwebp: d7e0c95fe97245c97e08101eba10702ebb0f6101
+  MagiPhotoBrowser: 2e250e748adc41e7e35fdfeb2e100fc6260efb82
+
+PODFILE CHECKSUM: 51e710293da9f90e4fa4949ccfa64c61002c5a80
+
+COCOAPODS: 1.5.3

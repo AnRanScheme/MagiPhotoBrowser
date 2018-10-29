@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MagiPhotoBrowser
 
 class ZoomFrameViewController: BaseCollectionViewController {
     

@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import MagiPhotoBrowser
 
 class ZoomViewController: BaseCollectionViewController {
     
