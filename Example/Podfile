@@ -1,8 +1,8 @@
 use_frameworks!
 
 target 'MagiPhotoBrowser_Example' do
-    
-  pod 'MagiPhotoBrowser', :path => '../'
+    use_frameworks!
+  pod 'MagiPhotoBrowser'
   pod 'Kingfisher',             '~> 4.10.0'
   pod 'KingfisherWebP',         '~> 0.4.2'
   pod 'libwebp',                '1.0.0'
