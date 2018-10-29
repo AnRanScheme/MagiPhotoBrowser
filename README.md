@@ -1,10 +1,12 @@
 # MagiPhotoBrowser
 
+****
 [![CI Status](https://img.shields.io/travis/AnRanScheme/MagiPhotoBrowser.svg?style=flat)](https://travis-ci.org/AnRanScheme/MagiPhotoBrowser)
 [![Version](https://img.shields.io/cocoapods/v/MagiPhotoBrowser.svg?style=flat)](https://cocoapods.org/pods/MagiPhotoBrowser)
 [![License](https://img.shields.io/cocoapods/l/MagiPhotoBrowser.svg?style=flat)](https://cocoapods.org/pods/MagiPhotoBrowser)
 [![Platform](https://img.shields.io/cocoapods/p/MagiPhotoBrowser.svg?style=flat)](https://cocoapods.org/pods/MagiPhotoBrowser)
-
+[![Email](https://img.shields.io/badge/e--mail-andyscheme%40gmail.com-blue.svg)](mailto:andyscheme@gmail.com)
+****
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
