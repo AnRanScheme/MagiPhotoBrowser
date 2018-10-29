@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3509B6C32182A70600ABEE88 /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3509B6C22182A70600ABEE88 /* Photos.plist */; };
+		3509B6C62182AE9D00ABEE88 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B6C52182AE9D00ABEE88 /* HomeViewController.swift */; };
+		3509B6C82182AFE700ABEE88 /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B6C72182AFE700ABEE88 /* BaseCollectionViewController.swift */; };
+		3509B6CA2182B65900ABEE88 /* ResourceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B6C92182B65900ABEE88 /* ResourceModel.swift */; };
+		3509B6CC2182B75E00ABEE88 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B6CB2182B75E00ABEE88 /* BaseCollectionViewCell.swift */; };
+		3509B6CE2182BA0000ABEE88 /* LocalImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B6CD2182BA0000ABEE88 /* LocalImageViewController.swift */; };
+		3509B7062183024C00ABEE88 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B7052183024C00ABEE88 /* ZoomViewController.swift */; };
+		3509B70A2183033F00ABEE88 /* ZoomFrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B7092183033F00ABEE88 /* ZoomFrameViewController.swift */; };
+		3509B71C21830D4700ABEE88 /* LongPressedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B71B21830D4700ABEE88 /* LongPressedViewController.swift */; };
+		3509B71E21830D7B00ABEE88 /* NetworkingImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B71D21830D7B00ABEE88 /* NetworkingImageViewController.swift */; };
+		3509B72021830DB000ABEE88 /* LocalDefaultPageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B71F21830DB000ABEE88 /* LocalDefaultPageControlViewController.swift */; };
+		3509B72221830DD200ABEE88 /* LocalNumberControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B72121830DD200ABEE88 /* LocalNumberControlViewController.swift */; };
+		3509B7282183103100ABEE88 /* RawImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B7272183103100ABEE88 /* RawImageViewController.swift */; };
+		3509B72A218311A800ABEE88 /* GIFImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B729218311A800ABEE88 /* GIFImageViewController.swift */; };
+		3509B72C218311D400ABEE88 /* WebpImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B72B218311D400ABEE88 /* WebpImageViewController.swift */; };
+		3509B75321831D5200ABEE88 /* MagiRawImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B72E21831D5100ABEE88 /* MagiRawImageDataSource.swift */; };
+		3509B75421831D5200ABEE88 /* MagiPhotoBrowserProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B72F21831D5100ABEE88 /* MagiPhotoBrowserProgressView.swift */; };
+		3509B75521831D5200ABEE88 /* MagiPhotoBrowserRawButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B73021831D5100ABEE88 /* MagiPhotoBrowserRawButtonCell.swift */; };
+		3509B75621831D5200ABEE88 /* MagiPhotoBrowserNetworkingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B73121831D5100ABEE88 /* MagiPhotoBrowserNetworkingCell.swift */; };
+		3509B75721831D5200ABEE88 /* MagiPhotoLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B73221831D5100ABEE88 /* MagiPhotoLoader.swift */; };
+		3509B75821831D5200ABEE88 /* MagiNetworkingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B73321831D5100ABEE88 /* MagiNetworkingDataSource.swift */; };
+		3509B75921831D5200ABEE88 /* MagiPhotoBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B73521831D5100ABEE88 /* MagiPhotoBrowserDelegate.swift */; };
+		3509B75A21831D5200ABEE88 /* MagiPhotoBrowserDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B73621831D5100ABEE88 /* MagiPhotoBrowserDataSource.swift */; };
+		3509B75B21831D5200ABEE88 /* MagiPhotoBrowserTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B73721831D5100ABEE88 /* MagiPhotoBrowserTransitioningDelegate.swift */; };
+		3509B75C21831D5200ABEE88 /* MagiDefaultPageControlDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B73921831D5100ABEE88 /* MagiDefaultPageControlDelegate.swift */; };
+		3509B75D21831D5200ABEE88 /* MagiNumberPageControlDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B73A21831D5100ABEE88 /* MagiNumberPageControlDelegate.swift */; };
+		3509B75E21831D5200ABEE88 /* MagiKingfisherLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B73C21831D5100ABEE88 /* MagiKingfisherLoader.swift */; };
+		3509B75F21831D5200ABEE88 /* MagiPhotoBrowserZoomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B73E21831D5200ABEE88 /* MagiPhotoBrowserZoomAnimator.swift */; };
+		3509B76021831D5200ABEE88 /* MagiPhotoBrowserFadePresentingAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B73F21831D5200ABEE88 /* MagiPhotoBrowserFadePresentingAnimator.swift */; };
+		3509B76121831D5200ABEE88 /* MagiPhotoBrowserFadeDismissingAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B74021831D5200ABEE88 /* MagiPhotoBrowserFadeDismissingAnimator.swift */; };
+		3509B76221831D5200ABEE88 /* MagiPhotoBrowserZoomPresentingAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B74121831D5200ABEE88 /* MagiPhotoBrowserZoomPresentingAnimator.swift */; };
+		3509B76321831D5200ABEE88 /* MagiPhotoBrowserZoomDismissingAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B74221831D5200ABEE88 /* MagiPhotoBrowserZoomDismissingAnimator.swift */; };
+		3509B76421831D5200ABEE88 /* MagiKingfisherWebPLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B74421831D5200ABEE88 /* MagiKingfisherWebPLoader.swift */; };
+		3509B76521831D5200ABEE88 /* MagiPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B74621831D5200ABEE88 /* MagiPhotoBrowser.swift */; };
+		3509B76621831D5200ABEE88 /* MagiLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B74721831D5200ABEE88 /* MagiLocalDataSource.swift */; };
+		3509B76721831D5200ABEE88 /* MagiPhotoBrowserBaseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B74821831D5200ABEE88 /* MagiPhotoBrowserBaseDelegate.swift */; };
+		3509B76821831D5200ABEE88 /* MagiPhotoBrowserBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B74921831D5200ABEE88 /* MagiPhotoBrowserBaseCell.swift */; };
+		3509B76921831D5200ABEE88 /* MagiPhotoBrowserFadeTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B74B21831D5200ABEE88 /* MagiPhotoBrowserFadeTransitioning.swift */; };
+		3509B76A21831D5200ABEE88 /* MagiPhotoBrowserZoomTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B74C21831D5200ABEE88 /* MagiPhotoBrowserZoomTransitioning.swift */; };
+		3509B76B21831D5200ABEE88 /* MagiPhotoBrowserPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B74D21831D5200ABEE88 /* MagiPhotoBrowserPresentationController.swift */; };
+		3509B76C21831D5200ABEE88 /* MagiPhotoBrowserTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B74E21831D5200ABEE88 /* MagiPhotoBrowserTransitioning.swift */; };
+		3509B76D21831D5200ABEE88 /* UIViewController+MagiPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B75021831D5200ABEE88 /* UIViewController+MagiPhotoBrowser.swift */; };
+		3509B76E21831D5200ABEE88 /* MagiNamespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B75121831D5200ABEE88 /* MagiNamespace.swift */; };
+		3509B76F21831D5200ABEE88 /* UICollectionView+MagiPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509B75221831D5200ABEE88 /* UICollectionView+MagiPhotoBrowser.swift */; };
+		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
+		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
+		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
+		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		DDA5B5090C6D8989EF246DC1 /* Pods_MagiPhotoBrowser_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF394F83991D2DEA2BA21BDD /* Pods_MagiPhotoBrowser_Example.framework */; };
+		F89D07BE9B0577F9B7F16D54 /* Pods_MagiPhotoBrowser_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8613E6EBDD43B885B3CACB9 /* Pods_MagiPhotoBrowser_Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = MagiPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C86FD7717264070D56E7464 /* Pods-MagiPhotoBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiPhotoBrowser_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagiPhotoBrowser_Tests/Pods-MagiPhotoBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3509B6C22182A70600ABEE88 /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
+		3509B6C52182AE9D00ABEE88 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3509B6C72182AFE700ABEE88 /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
+		3509B6C92182B65900ABEE88 /* ResourceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceModel.swift; sourceTree = "<group>"; };
+		3509B6CB2182B75E00ABEE88 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		3509B6CD2182BA0000ABEE88 /* LocalImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalImageViewController.swift; sourceTree = "<group>"; };
+		3509B7052183024C00ABEE88 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		3509B7092183033F00ABEE88 /* ZoomFrameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomFrameViewController.swift; sourceTree = "<group>"; };
+		3509B71B21830D4700ABEE88 /* LongPressedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressedViewController.swift; sourceTree = "<group>"; };
+		3509B71D21830D7B00ABEE88 /* NetworkingImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingImageViewController.swift; sourceTree = "<group>"; };
+		3509B71F21830DB000ABEE88 /* LocalDefaultPageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDefaultPageControlViewController.swift; sourceTree = "<group>"; };
+		3509B72121830DD200ABEE88 /* LocalNumberControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNumberControlViewController.swift; sourceTree = "<group>"; };
+		3509B7272183103100ABEE88 /* RawImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawImageViewController.swift; sourceTree = "<group>"; };
+		3509B729218311A800ABEE88 /* GIFImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFImageViewController.swift; sourceTree = "<group>"; };
+		3509B72B218311D400ABEE88 /* WebpImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebpImageViewController.swift; sourceTree = "<group>"; };
+		3509B72E21831D5100ABEE88 /* MagiRawImageDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiRawImageDataSource.swift; sourceTree = "<group>"; };
+		3509B72F21831D5100ABEE88 /* MagiPhotoBrowserProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserProgressView.swift; sourceTree = "<group>"; };
+		3509B73021831D5100ABEE88 /* MagiPhotoBrowserRawButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserRawButtonCell.swift; sourceTree = "<group>"; };
+		3509B73121831D5100ABEE88 /* MagiPhotoBrowserNetworkingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserNetworkingCell.swift; sourceTree = "<group>"; };
+		3509B73221831D5100ABEE88 /* MagiPhotoLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoLoader.swift; sourceTree = "<group>"; };
+		3509B73321831D5100ABEE88 /* MagiNetworkingDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiNetworkingDataSource.swift; sourceTree = "<group>"; };
+		3509B73521831D5100ABEE88 /* MagiPhotoBrowserDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserDelegate.swift; sourceTree = "<group>"; };
+		3509B73621831D5100ABEE88 /* MagiPhotoBrowserDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserDataSource.swift; sourceTree = "<group>"; };
+		3509B73721831D5100ABEE88 /* MagiPhotoBrowserTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserTransitioningDelegate.swift; sourceTree = "<group>"; };
+		3509B73921831D5100ABEE88 /* MagiDefaultPageControlDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiDefaultPageControlDelegate.swift; sourceTree = "<group>"; };
+		3509B73A21831D5100ABEE88 /* MagiNumberPageControlDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiNumberPageControlDelegate.swift; sourceTree = "<group>"; };
+		3509B73C21831D5100ABEE88 /* MagiKingfisherLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiKingfisherLoader.swift; sourceTree = "<group>"; };
+		3509B73E21831D5200ABEE88 /* MagiPhotoBrowserZoomAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserZoomAnimator.swift; sourceTree = "<group>"; };
+		3509B73F21831D5200ABEE88 /* MagiPhotoBrowserFadePresentingAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserFadePresentingAnimator.swift; sourceTree = "<group>"; };
+		3509B74021831D5200ABEE88 /* MagiPhotoBrowserFadeDismissingAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserFadeDismissingAnimator.swift; sourceTree = "<group>"; };
+		3509B74121831D5200ABEE88 /* MagiPhotoBrowserZoomPresentingAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserZoomPresentingAnimator.swift; sourceTree = "<group>"; };
+		3509B74221831D5200ABEE88 /* MagiPhotoBrowserZoomDismissingAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserZoomDismissingAnimator.swift; sourceTree = "<group>"; };
+		3509B74421831D5200ABEE88 /* MagiKingfisherWebPLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiKingfisherWebPLoader.swift; sourceTree = "<group>"; };
+		3509B74621831D5200ABEE88 /* MagiPhotoBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowser.swift; sourceTree = "<group>"; };
+		3509B74721831D5200ABEE88 /* MagiLocalDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiLocalDataSource.swift; sourceTree = "<group>"; };
+		3509B74821831D5200ABEE88 /* MagiPhotoBrowserBaseDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserBaseDelegate.swift; sourceTree = "<group>"; };
+		3509B74921831D5200ABEE88 /* MagiPhotoBrowserBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserBaseCell.swift; sourceTree = "<group>"; };
+		3509B74B21831D5200ABEE88 /* MagiPhotoBrowserFadeTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserFadeTransitioning.swift; sourceTree = "<group>"; };
+		3509B74C21831D5200ABEE88 /* MagiPhotoBrowserZoomTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserZoomTransitioning.swift; sourceTree = "<group>"; };
+		3509B74D21831D5200ABEE88 /* MagiPhotoBrowserPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserPresentationController.swift; sourceTree = "<group>"; };
+		3509B74E21831D5200ABEE88 /* MagiPhotoBrowserTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiPhotoBrowserTransitioning.swift; sourceTree = "<group>"; };
+		3509B75021831D5200ABEE88 /* UIViewController+MagiPhotoBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+MagiPhotoBrowser.swift"; sourceTree = "<group>"; };
+		3509B75121831D5200ABEE88 /* MagiNamespace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiNamespace.swift; sourceTree = "<group>"; };
+		3509B75221831D5200ABEE88 /* UICollectionView+MagiPhotoBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+MagiPhotoBrowser.swift"; sourceTree = "<group>"; };
+		36ED2FAA9FE932B6A22587BD /* Pods-MagiPhotoBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiPhotoBrowser_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagiPhotoBrowser_Example/Pods-MagiPhotoBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3930F8FF2C4050BCA6249C11 /* Pods-MagiPhotoBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiPhotoBrowser_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagiPhotoBrowser_Tests/Pods-MagiPhotoBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* MagiPhotoBrowser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagiPhotoBrowser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		607FACE51AFB9204008FA782 /* MagiPhotoBrowser_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagiPhotoBrowser_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		775726E8DC668A01E3FD26D5 /* Pods-MagiPhotoBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiPhotoBrowser_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagiPhotoBrowser_Example/Pods-MagiPhotoBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B643324A661F19D3E8CEBAF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BF394F83991D2DEA2BA21BDD /* Pods_MagiPhotoBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagiPhotoBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8613E6EBDD43B885B3CACB9 /* Pods_MagiPhotoBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagiPhotoBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99B299D5C92D66B53369392 /* MagiPhotoBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MagiPhotoBrowser.podspec; path = ../MagiPhotoBrowser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EEFC57EA804FAE8DC2C8E4A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA5B5090C6D8989EF246DC1 /* Pods_MagiPhotoBrowser_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE21AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89D07BE9B0577F9B7F16D54 /* Pods_MagiPhotoBrowser_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3509B6C42182AB7F00ABEE88 /* SB */ = {
+			isa = PBXGroup;
+			children = (
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
+			);
+			name = SB;
+			sourceTree = "<group>";
+		};
+		3509B72D21831D5100ABEE88 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3509B72E21831D5100ABEE88 /* MagiRawImageDataSource.swift */,
+				3509B72F21831D5100ABEE88 /* MagiPhotoBrowserProgressView.swift */,
+				3509B73021831D5100ABEE88 /* MagiPhotoBrowserRawButtonCell.swift */,
+				3509B73121831D5100ABEE88 /* MagiPhotoBrowserNetworkingCell.swift */,
+				3509B73221831D5100ABEE88 /* MagiPhotoLoader.swift */,
+				3509B73321831D5100ABEE88 /* MagiNetworkingDataSource.swift */,
+			);
+			name = Networking;
+			path = Source/Networking;
+			sourceTree = "<group>";
+		};
+		3509B73421831D5100ABEE88 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3509B73521831D5100ABEE88 /* MagiPhotoBrowserDelegate.swift */,
+				3509B73621831D5100ABEE88 /* MagiPhotoBrowserDataSource.swift */,
+				3509B73721831D5100ABEE88 /* MagiPhotoBrowserTransitioningDelegate.swift */,
+			);
+			name = Protocol;
+			path = Source/Protocol;
+			sourceTree = "<group>";
+		};
+		3509B73821831D5100ABEE88 /* Enhance */ = {
+			isa = PBXGroup;
+			children = (
+				3509B73921831D5100ABEE88 /* MagiDefaultPageControlDelegate.swift */,
+				3509B73A21831D5100ABEE88 /* MagiNumberPageControlDelegate.swift */,
+			);
+			name = Enhance;
+			path = Source/Enhance;
+			sourceTree = "<group>";
+		};
+		3509B73B21831D5100ABEE88 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				3509B73C21831D5100ABEE88 /* MagiKingfisherLoader.swift */,
+			);
+			name = Kingfisher;
+			path = Source/Kingfisher;
+			sourceTree = "<group>";
+		};
+		3509B73D21831D5200ABEE88 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				3509B73E21831D5200ABEE88 /* MagiPhotoBrowserZoomAnimator.swift */,
+				3509B73F21831D5200ABEE88 /* MagiPhotoBrowserFadePresentingAnimator.swift */,
+				3509B74021831D5200ABEE88 /* MagiPhotoBrowserFadeDismissingAnimator.swift */,
+				3509B74121831D5200ABEE88 /* MagiPhotoBrowserZoomPresentingAnimator.swift */,
+				3509B74221831D5200ABEE88 /* MagiPhotoBrowserZoomDismissingAnimator.swift */,
+			);
+			name = Animator;
+			path = Source/Animator;
+			sourceTree = "<group>";
+		};
+		3509B74321831D5200ABEE88 /* KingfisherWebP */ = {
+			isa = PBXGroup;
+			children = (
+				3509B74421831D5200ABEE88 /* MagiKingfisherWebPLoader.swift */,
+			);
+			name = KingfisherWebP;
+			path = Source/KingfisherWebP;
+			sourceTree = "<group>";
+		};
+		3509B74521831D5200ABEE88 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3509B74621831D5200ABEE88 /* MagiPhotoBrowser.swift */,
+				3509B74721831D5200ABEE88 /* MagiLocalDataSource.swift */,
+				3509B74821831D5200ABEE88 /* MagiPhotoBrowserBaseDelegate.swift */,
+				3509B74921831D5200ABEE88 /* MagiPhotoBrowserBaseCell.swift */,
+			);
+			name = Classes;
+			path = Source/Classes;
+			sourceTree = "<group>";
+		};
+		3509B74A21831D5200ABEE88 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				3509B74B21831D5200ABEE88 /* MagiPhotoBrowserFadeTransitioning.swift */,
+				3509B74C21831D5200ABEE88 /* MagiPhotoBrowserZoomTransitioning.swift */,
+				3509B74D21831D5200ABEE88 /* MagiPhotoBrowserPresentationController.swift */,
+				3509B74E21831D5200ABEE88 /* MagiPhotoBrowserTransitioning.swift */,
+			);
+			name = Transition;
+			path = Source/Transition;
+			sourceTree = "<group>";
+		};
+		3509B74F21831D5200ABEE88 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3509B75021831D5200ABEE88 /* UIViewController+MagiPhotoBrowser.swift */,
+				3509B75121831D5200ABEE88 /* MagiNamespace.swift */,
+				3509B75221831D5200ABEE88 /* UICollectionView+MagiPhotoBrowser.swift */,
+			);
+			name = Extension;
+			path = Source/Extension;
+			sourceTree = "<group>";
+		};
+		5223CB81D0549737101F9DE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF394F83991D2DEA2BA21BDD /* Pods_MagiPhotoBrowser_Example.framework */,
+				D8613E6EBDD43B885B3CACB9 /* Pods_MagiPhotoBrowser_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACD21AFB9204008FA782 /* Example for MagiPhotoBrowser */,
+				607FACE81AFB9204008FA782 /* Tests */,
+				607FACD11AFB9204008FA782 /* Products */,
+				BBAE4758D3CD7EE0D4742EE4 /* Pods */,
+				5223CB81D0549737101F9DE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD01AFB9204008FA782 /* MagiPhotoBrowser_Example.app */,
+				607FACE51AFB9204008FA782 /* MagiPhotoBrowser_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607FACD21AFB9204008FA782 /* Example for MagiPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				3509B73D21831D5200ABEE88 /* Animator */,
+				3509B74521831D5200ABEE88 /* Classes */,
+				3509B73821831D5100ABEE88 /* Enhance */,
+				3509B74F21831D5200ABEE88 /* Extension */,
+				3509B73B21831D5100ABEE88 /* Kingfisher */,
+				3509B74321831D5200ABEE88 /* KingfisherWebP */,
+				3509B72D21831D5100ABEE88 /* Networking */,
+				3509B73421831D5100ABEE88 /* Protocol */,
+				3509B74A21831D5200ABEE88 /* Transition */,
+				607FACD31AFB9204008FA782 /* Supporting Files */,
+				3509B6C42182AB7F00ABEE88 /* SB */,
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				3509B6C52182AE9D00ABEE88 /* HomeViewController.swift */,
+				3509B6CB2182B75E00ABEE88 /* BaseCollectionViewCell.swift */,
+				3509B6C72182AFE700ABEE88 /* BaseCollectionViewController.swift */,
+				3509B6C92182B65900ABEE88 /* ResourceModel.swift */,
+				3509B6CD2182BA0000ABEE88 /* LocalImageViewController.swift */,
+				3509B71F21830DB000ABEE88 /* LocalDefaultPageControlViewController.swift */,
+				3509B72121830DD200ABEE88 /* LocalNumberControlViewController.swift */,
+				3509B7052183024C00ABEE88 /* ZoomViewController.swift */,
+				3509B7092183033F00ABEE88 /* ZoomFrameViewController.swift */,
+				3509B71B21830D4700ABEE88 /* LongPressedViewController.swift */,
+				3509B71D21830D7B00ABEE88 /* NetworkingImageViewController.swift */,
+				3509B7272183103100ABEE88 /* RawImageViewController.swift */,
+				3509B729218311A800ABEE88 /* GIFImageViewController.swift */,
+				3509B72B218311D400ABEE88 /* WebpImageViewController.swift */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+			);
+			name = "Example for MagiPhotoBrowser";
+			path = MagiPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		607FACD31AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3509B6C22182A70600ABEE88 /* Photos.plist */,
+				607FACD41AFB9204008FA782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACE81AFB9204008FA782 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				607FACE91AFB9204008FA782 /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		607FACE91AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607FACEA1AFB9204008FA782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				D99B299D5C92D66B53369392 /* MagiPhotoBrowser.podspec */,
+				EEFC57EA804FAE8DC2C8E4A8 /* README.md */,
+				B643324A661F19D3E8CEBAF1 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		BBAE4758D3CD7EE0D4742EE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				775726E8DC668A01E3FD26D5 /* Pods-MagiPhotoBrowser_Example.debug.xcconfig */,
+				36ED2FAA9FE932B6A22587BD /* Pods-MagiPhotoBrowser_Example.release.xcconfig */,
+				3930F8FF2C4050BCA6249C11 /* Pods-MagiPhotoBrowser_Tests.debug.xcconfig */,
+				1C86FD7717264070D56E7464 /* Pods-MagiPhotoBrowser_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607FACCF1AFB9204008FA782 /* MagiPhotoBrowser_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MagiPhotoBrowser_Example" */;
+			buildPhases = (
+				E23237F7D729E3B94AEF4DF7 /* [CP] Check Pods Manifest.lock */,
+				607FACCC1AFB9204008FA782 /* Sources */,
+				607FACCD1AFB9204008FA782 /* Frameworks */,
+				607FACCE1AFB9204008FA782 /* Resources */,
+				5BFF2CF58E478EC3998C2440 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagiPhotoBrowser_Example;
+			productName = MagiPhotoBrowser;
+			productReference = 607FACD01AFB9204008FA782 /* MagiPhotoBrowser_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		607FACE41AFB9204008FA782 /* MagiPhotoBrowser_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MagiPhotoBrowser_Tests" */;
+			buildPhases = (
+				45CCB65B8D3ADABEE7C35B98 /* [CP] Check Pods Manifest.lock */,
+				607FACE11AFB9204008FA782 /* Sources */,
+				607FACE21AFB9204008FA782 /* Frameworks */,
+				607FACE31AFB9204008FA782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
+			);
+			name = MagiPhotoBrowser_Tests;
+			productName = Tests;
+			productReference = 607FACE51AFB9204008FA782 /* MagiPhotoBrowser_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = CocoaPods;
+				TargetAttributes = {
+					607FACCF1AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = TDBLA72SEX;
+						LastSwiftMigration = 1000;
+					};
+					607FACE41AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = TDBLA72SEX;
+						LastSwiftMigration = 1000;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MagiPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607FACCF1AFB9204008FA782 /* MagiPhotoBrowser_Example */,
+				607FACE41AFB9204008FA782 /* MagiPhotoBrowser_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607FACCE1AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				3509B6C32182A70600ABEE88 /* Photos.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45CCB65B8D3ADABEE7C35B98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagiPhotoBrowser_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BFF2CF58E478EC3998C2440 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MagiPhotoBrowser_Example/Pods-MagiPhotoBrowser_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/KingfisherWebP/KingfisherWebP.framework",
+				"${BUILT_PRODUCTS_DIR}/MagiPhotoBrowser/MagiPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KingfisherWebP.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagiPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagiPhotoBrowser_Example/Pods-MagiPhotoBrowser_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E23237F7D729E3B94AEF4DF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagiPhotoBrowser_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607FACCC1AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3509B75E21831D5200ABEE88 /* MagiKingfisherLoader.swift in Sources */,
+				3509B6CA2182B65900ABEE88 /* ResourceModel.swift in Sources */,
+				3509B70A2183033F00ABEE88 /* ZoomFrameViewController.swift in Sources */,
+				3509B72C218311D400ABEE88 /* WebpImageViewController.swift in Sources */,
+				3509B75621831D5200ABEE88 /* MagiPhotoBrowserNetworkingCell.swift in Sources */,
+				3509B75A21831D5200ABEE88 /* MagiPhotoBrowserDataSource.swift in Sources */,
+				3509B76421831D5200ABEE88 /* MagiKingfisherWebPLoader.swift in Sources */,
+				3509B75521831D5200ABEE88 /* MagiPhotoBrowserRawButtonCell.swift in Sources */,
+				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				3509B75821831D5200ABEE88 /* MagiNetworkingDataSource.swift in Sources */,
+				3509B71E21830D7B00ABEE88 /* NetworkingImageViewController.swift in Sources */,
+				3509B75B21831D5200ABEE88 /* MagiPhotoBrowserTransitioningDelegate.swift in Sources */,
+				3509B75D21831D5200ABEE88 /* MagiNumberPageControlDelegate.swift in Sources */,
+				3509B71C21830D4700ABEE88 /* LongPressedViewController.swift in Sources */,
+				3509B75721831D5200ABEE88 /* MagiPhotoLoader.swift in Sources */,
+				3509B6CE2182BA0000ABEE88 /* LocalImageViewController.swift in Sources */,
+				3509B76921831D5200ABEE88 /* MagiPhotoBrowserFadeTransitioning.swift in Sources */,
+				3509B76821831D5200ABEE88 /* MagiPhotoBrowserBaseCell.swift in Sources */,
+				3509B72A218311A800ABEE88 /* GIFImageViewController.swift in Sources */,
+				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				3509B76A21831D5200ABEE88 /* MagiPhotoBrowserZoomTransitioning.swift in Sources */,
+				3509B76521831D5200ABEE88 /* MagiPhotoBrowser.swift in Sources */,
+				3509B76021831D5200ABEE88 /* MagiPhotoBrowserFadePresentingAnimator.swift in Sources */,
+				3509B76B21831D5200ABEE88 /* MagiPhotoBrowserPresentationController.swift in Sources */,
+				3509B76221831D5200ABEE88 /* MagiPhotoBrowserZoomPresentingAnimator.swift in Sources */,
+				3509B75421831D5200ABEE88 /* MagiPhotoBrowserProgressView.swift in Sources */,
+				3509B76D21831D5200ABEE88 /* UIViewController+MagiPhotoBrowser.swift in Sources */,
+				3509B7282183103100ABEE88 /* RawImageViewController.swift in Sources */,
+				3509B76F21831D5200ABEE88 /* UICollectionView+MagiPhotoBrowser.swift in Sources */,
+				3509B75921831D5200ABEE88 /* MagiPhotoBrowserDelegate.swift in Sources */,
+				3509B75F21831D5200ABEE88 /* MagiPhotoBrowserZoomAnimator.swift in Sources */,
+				3509B6C62182AE9D00ABEE88 /* HomeViewController.swift in Sources */,
+				3509B72021830DB000ABEE88 /* LocalDefaultPageControlViewController.swift in Sources */,
+				3509B7062183024C00ABEE88 /* ZoomViewController.swift in Sources */,
+				3509B76621831D5200ABEE88 /* MagiLocalDataSource.swift in Sources */,
+				3509B6C82182AFE700ABEE88 /* BaseCollectionViewController.swift in Sources */,
+				3509B76321831D5200ABEE88 /* MagiPhotoBrowserZoomDismissingAnimator.swift in Sources */,
+				3509B76C21831D5200ABEE88 /* MagiPhotoBrowserTransitioning.swift in Sources */,
+				3509B76E21831D5200ABEE88 /* MagiNamespace.swift in Sources */,
+				3509B72221830DD200ABEE88 /* LocalNumberControlViewController.swift in Sources */,
+				3509B76121831D5200ABEE88 /* MagiPhotoBrowserFadeDismissingAnimator.swift in Sources */,
+				3509B75C21831D5200ABEE88 /* MagiDefaultPageControlDelegate.swift in Sources */,
+				3509B75321831D5200ABEE88 /* MagiRawImageDataSource.swift in Sources */,
+				3509B6CC2182B75E00ABEE88 /* BaseCollectionViewCell.swift in Sources */,
+				3509B76721831D5200ABEE88 /* MagiPhotoBrowserBaseDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE11AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* MagiPhotoBrowser_Example */;
+			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDA1AFB9204008FA782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDF1AFB9204008FA782 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607FACF01AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775726E8DC668A01E3FD26D5 /* Pods-MagiPhotoBrowser_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				INFOPLIST_FILE = MagiPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		607FACF11AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36ED2FAA9FE932B6A22587BD /* Pods-MagiPhotoBrowser_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				INFOPLIST_FILE = MagiPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		607FACF31AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3930F8FF2C4050BCA6249C11 /* Pods-MagiPhotoBrowser_Tests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagiPhotoBrowser_Example.app/MagiPhotoBrowser_Example";
+			};
+			name = Debug;
+		};
+		607FACF41AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C86FD7717264070D56E7464 /* Pods-MagiPhotoBrowser_Tests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagiPhotoBrowser_Example.app/MagiPhotoBrowser_Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MagiPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MagiPhotoBrowser_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF01AFB9204008FA782 /* Debug */,
+				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MagiPhotoBrowser_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF31AFB9204008FA782 /* Debug */,
+				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}

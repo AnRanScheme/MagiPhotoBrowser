@@ -1,2 +1,29 @@
 # MagiPhotoBrowser
-Swift 版好用的图片浏览器 单独封装 支持Kingfisher,支持WebP动画流畅,使用简单,更加符合Swift的风格
+
+[![CI Status](https://img.shields.io/travis/AnRanScheme/MagiPhotoBrowser.svg?style=flat)](https://travis-ci.org/AnRanScheme/MagiPhotoBrowser)
+[![Version](https://img.shields.io/cocoapods/v/MagiPhotoBrowser.svg?style=flat)](https://cocoapods.org/pods/MagiPhotoBrowser)
+[![License](https://img.shields.io/cocoapods/l/MagiPhotoBrowser.svg?style=flat)](https://cocoapods.org/pods/MagiPhotoBrowser)
+[![Platform](https://img.shields.io/cocoapods/p/MagiPhotoBrowser.svg?style=flat)](https://cocoapods.org/pods/MagiPhotoBrowser)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+MagiPhotoBrowser is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'MagiPhotoBrowser'
+```
+
+## Author
+
+AnRanScheme, 541437674@qq.com
+
+## License
+
+MagiPhotoBrowser is available under the MIT license. See the LICENSE file for more info.
