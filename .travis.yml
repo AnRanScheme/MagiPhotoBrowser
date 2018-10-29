@@ -18,8 +18,8 @@ matrix:
 before_install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 - gem install cocoapods --pre --no-rdoc --no-ri --no-document --quiet
-- pod update --project-directory=ExampleRepo
-- pod install --project-directory=ExampleRepo
+- pod update --project-directory=ExampleRepo/photoBrowser
+- pod install --project-directory=ExampleRepo/photoBrowser
 script:
 - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace ExampleRepo/photoBrowser/photoBrowser.xcworkspace -scheme photoBrowser -sdk iphonesimulator12.0 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
